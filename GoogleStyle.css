@@ -1,0 +1,136 @@
+.flex {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.center {
+    margin: auto;
+}
+
+form {
+    margin: auto;
+}
+
+.google {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 600px;
+    height: 40px;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1pt;
+    padding: 0px, 40px;
+    border-color: rgba(201, 202, 201, 0.973);
+    margin-bottom: 20px;
+}
+
+input:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+li {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    display: inline;
+    margin: 5px;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.Search {
+    background-color:#f1ededec;
+    width: 130px;
+    height: 35px;
+    color: rgb(106, 106, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    border-radius: 4px;
+    border: none;
+    margin: none;
+}
+
+.micbutton {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: auto;
+    transform: translate(1100%,-220%);
+    border: none;
+    background: transparent;
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.magbutton {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: right;
+    transform: translate(100%,-390%);
+    background-color: transparent;
+    background-image: url(https://img.icons8.com/android/24/000000/search.png);
+    background-size: contain;
+    cursor: pointer;
+    border: none;
+}
+
+.hogra-sidan {
+    padding-right: 5px;
+    float: right;
+}
+
+.signin {
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    background-color: #4285f4;
+    font-size: 10pt;
+    border: none;
+    height: 30px;
+    width: 80px;
+    margin: none;
+    border-radius: 5px;
+}
+
+.nav {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:#f2f2f2;
+    border-style: solid;
+    border-color: rgb(236, 235, 235);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footerleft {
+    float: left;
+    
+}
+
+.footerright {
+    float: right;
+    padding-right: 20px;
+}
+
+.grey {
+    color: rgb(106, 106, 107);
+}
+
+li a {
+    text-decoration: none;
+}
